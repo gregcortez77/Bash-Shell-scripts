@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#read -p "Enter CIDR: " cidr
+cidr="${1}"
+echo "There are $((2**(32-${cidr})-2)) IPv4 hosts in a /${cidr}" 
