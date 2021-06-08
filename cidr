@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Greg Cortes
-# Date: 6/8/2021
+# Date: 6/3/2021
 
 
 # read -p "Enter CIDR: " cidr
