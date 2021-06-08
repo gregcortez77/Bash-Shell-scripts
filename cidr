@@ -2,6 +2,7 @@
 # Author: Greg Cortes
 # Date: 6/8/2021
 
+
 # read -p "Enter CIDR: " cidr
 cidr="${1}"
 echo "There are $((2**(32-${cidr})-2)) IPv4 hosts in a /${cidr}" 
