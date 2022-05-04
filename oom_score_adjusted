@@ -1,0 +1,8 @@
+#!/bin/bash
+# Author: Greg Cortes
+# Date: 4/25/2022
+
+#read -p "Pid:" 
+pid="${1}"
+
+echo "oom_score_adj= $(cat /proc/${pid}/oom_score_adj) for PID ${pid}"

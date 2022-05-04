@@ -1,0 +1,12 @@
+#!/bin/bash
+# Author: Greg Cortes
+# Date: 4/25/2022
+
+
+
+pid=${1}
+
+score=${2}
+
+
+echo ${score} | sudo tee - /proc/${pid}/oom_score_adj
