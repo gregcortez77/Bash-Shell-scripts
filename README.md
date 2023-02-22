@@ -1,4 +1,4 @@
-# Bash-scripts
+# Bash-Shell-scripts
 
 A couple of small bash scripts made for practice & fun. Includes scripts to;
 
